@@ -281,7 +281,7 @@ function init() {
 
   // tutorial 
   page_current = 0;
-  var page_1 = texture_loader.load("https://sapienzainteractivegraphicscourse.github.io/final-project-jaolo-graphics/res/howto/HowToPlay1.png");
+  var page_1 = texture_loader.load("https://sapienzainteractivegraphicscourse.github.io/final-project-jaolo-graphics/res/howTo/HowToPlay1.png");
   page_1.encoding = THREE.sRGBEncoding;
   page_1.anisotropy = 16;
   var window_material = new THREE.MeshBasicMaterial({map: page_1});
@@ -291,11 +291,11 @@ function init() {
   tutorial_1.position.z = -11;
   tutorial_array.push(page_1);
 
-  var page_2 = texture_loader.load("https://sapienzainteractivegraphicscourse.github.io/final-project-jaolo-graphics/res/howto/HowToPlay2.png");
+  var page_2 = texture_loader.load("https://sapienzainteractivegraphicscourse.github.io/final-project-jaolo-graphics/res/howTo/HowToPlay2.png");
   page_2.encoding = THREE.sRGBEncoding;
   page_2.anisotropy = 16;
   tutorial_array.push(page_2);
-  var page_3 = texture_loader.load("https://sapienzainteractivegraphicscourse.github.io/final-project-jaolo-graphics/res/howto/HowToPlay3.png");
+  var page_3 = texture_loader.load("https://sapienzainteractivegraphicscourse.github.io/final-project-jaolo-graphics/res/howTo/HowToPlay3.png");
   page_3.encoding = THREE.sRGBEncoding;
   page_3.anisotropy = 16;
   tutorial_array.push(page_3);
