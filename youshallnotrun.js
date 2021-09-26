@@ -260,7 +260,7 @@ function init() {
 
 
   // background Texture
-  var texture = texture_loader.load("https://sapienzainteractivegraphicscourse.github.io/final-project-jaolo-graphics/res/bg/bgtry.jpg")
+  var texture = texture_loader.load("https://././res/bg/bgtry.jpg")
   texture.encoding = THREE.sRGBEncoding;
   texture.anisotropy = 16;
   texture.wrapS = THREE.RepeatWrapping;
